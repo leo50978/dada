@@ -1,0 +1,1576 @@
+body{
+    margin: 0;
+    background-color: rgb(232, 236, 238);
+}
+/*navbar*/
+.navbar{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+}
+
+.panier{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panier img{
+    height: 80%;
+    border-radius: 20%;
+}
+
+.panier img:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    width: 50%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+    transform: scale(1.1);
+}
+.contact{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact img{
+    height: 80%;
+    border-radius: 20%;
+}
+.contact img:hover{
+    transform: scale(1.2);
+}
+/*div generale*/
+.conteneurgenerale{
+    position: relative;
+    width: 100%;
+    height: 540vh;
+    top: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*conteneur ecran*/
+.conteneurecran{
+    width: 90%;
+    height: 400vh;
+    margin-bottom: 3vh;
+    background-color: whitesmoke;
+}
+
+/*ecran1*/
+/*div conteneur ligne image*/
+.conteneurproduit-1{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow-y:hidden;
+
+}
+/*ligne1*/
+.conteneurligneproduit-1{
+    width: 80%;
+    height: 100%;
+    margin-right: 1.5vw;
+    display:inline-block ;
+}
+/*imgligne1*/
+.imgligneproduit-1{
+    width: 100%;
+    height: 80%;
+}
+/*ligne prix*/
+.prixligneproduit-1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-1{
+    width: 80%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-1{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne2*/
+.conteneurligneproduit-2{
+    width: 80%;
+    height: 100%;
+    margin-right: 1.5vw;
+    right:0 ;
+    display:inline-block ;
+}
+/*imgligne1*/
+.imgligneproduit-2{
+    width: 100%;
+    height: 80%;
+}
+/*ligne prix*/
+.prixligneproduit-2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-2{
+    width: 80%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-2{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne3*/
+.conteneurligneproduit-3{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display:inline-block ;
+}
+/*imgligne1*/
+
+.imgligneproduit-3{
+    width: 100%;
+    height: 80%;
+}
+/*ligne prix*/
+.prixligneproduit-3{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-3{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-3{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne4*/
+.conteneurligneproduit-4{
+    width: 80%;
+    height: 100%;
+    
+    display:inline-block ;
+}
+/*imgligne1*/
+
+.imgligneproduit-4{
+    width: 100%;
+    height: 80%;
+}
+/*ligne prix*/
+.prixligneproduit-4{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-4{
+    width: 80%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-4{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*produit2...................................................*/
+.conteneurproduit-2{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 5vh;
+    white-space:nowrap;
+    overflow-y: hidden;     
+}
+/*ligne1*/
+.conteneurligneproduit-1-1{
+    width: 80%;
+    height: 100%;
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-1-1{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-1-1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-1-1{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-1-1{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne2*/
+.conteneurligneproduit-2-2{
+    width: 80%;
+    height: 100%;
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-2-2{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-2-2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-2-2{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-2-2{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne3*/
+.conteneurligneproduit-3-3{
+    width: 80%;
+    height: 100%;
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-3-3{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-3-3{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-3-3{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-3-3{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne4*/
+.conteneurligneproduit-4-4{
+    width: 80%;
+    height: 100%;
+    
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-4-4{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-4-4{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-4-4{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-4-4{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne4*/
+.conteneurligneproduit-5-5{
+    width: 80%;
+    height: 100%;
+    
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-5-5{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-5-5{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-5-5{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-5-5{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne4*/
+.conteneurligneproduit-6-6{
+    width: 80%;
+    height: 100%;
+    
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-6-6{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-6-6{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-6-6{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-6-6{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*produit 3...................................................*/
+.conteneurproduit-3{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 5vh;
+    white-space:nowrap;
+    overflow-y: hidden;
+    background-color: #363636;     
+}
+/*ligne1*/
+.conteneurligneproduit-1-1-1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-1-1-1{
+    width: 100%;
+    height: 80%;
+}
+/*ligne prix*/
+.prixligneproduit-1-1-1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-1-1-1{
+    width: 80%;
+    height: 100%;
+}
+.imgprixligneproduit-1-1-1 img{
+    width: 100%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-1-1-1{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne2*/
+.conteneurligneproduit-2-2-2{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-2-2-2{
+    width: 100%;
+    height: 80%;
+   
+}
+/*ligne prix*/
+.prixligneproduit-2-2-2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-2-2-2{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-2-2-2{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne3*/
+.conteneurligneproduit-3-3-3{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-3-3-3{
+    width: 100%;
+    height: 80%;
+     
+}
+/*ligne prix*/
+.prixligneproduit-3-3-3{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-3-3-3{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-3-3-3{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne4*/
+.conteneurligneproduit-4-4-4{
+    width: 80%;
+    height: 100%;
+    
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-4-4-4{
+    width: 100%;
+    height: 80%;
+}
+/*ligne prix*/
+.prixligneproduit-4-4-4{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-4-4-4{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-4-4-4{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*produit4.......................................................*/
+.conteneurproduit-4{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 5vh;
+    white-space:nowrap;
+    overflow-y: hidden;    
+}
+/*ligne1*/
+.conteneurligneproduit-1-1-1-1{
+    width: 100%;
+    height: 100%;
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-1-1-1-1{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-1-1-1-1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-1-1-1-1{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-1-1-1-1{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne2*/
+.conteneurligneproduit-2-2-2-2{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-2-2-2-2{
+    width: 100%;
+    height: 80%;
+}
+/*ligne prix*/
+.prixligneproduit-2-2-2-2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-2-2-2-2{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-2-2-2-2{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne3*/
+.conteneurligneproduit-3-3-3-3{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-3-3-3-3{
+    width: 100%;
+    height: 80%;
+     
+}
+/*ligne prix*/
+.prixligneproduit-3-3-3-3{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-3-3-3-3{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-3-3-3-3{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne4*/
+.conteneurligneproduit-4-4-4-4{
+    width: 80%;
+    height: 100%;
+    
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-4-4-4-4{
+    width: 100%;
+    height: 80%;
+   
+}
+/*ligne prix*/
+.prixligneproduit-4-4-4-4{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-4-4-4-4{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-4-4-4-4{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*produit5.......................................................*/
+.conteneurproduit-5{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 5vh;
+    white-space:nowrap;
+    overflow-y: hidden;     
+}
+/*ligne1*/
+.conteneurligneproduit-1-1-1-1-1{
+    width: 80%;
+    height: 100%;
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-1-1-1-1-1{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+
+.imgligneproduit-1-1-1-1-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*ligne prix*/
+.prixligneproduit-1-1-1-1-1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-1-1-1-1-1{
+    width: 80%;
+    height: 100%;
+}
+.imgprixligneproduit-1-1-1-1-1 img{
+    width: 100%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-1-1-1-1-1{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne2*/
+.conteneurligneproduit-2-2-2-2-2{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-2-2-2-2-2{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+.imgligneproduit-2-2-2-2-2 img{
+    width: 100%;
+    height: 100%;
+}
+/*ligne prix*/
+.prixligneproduit-2-2-2-2-2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-2-2-2-2-2{
+    width: 80%;
+    height: 100%;     
+}
+.imgprixligneproduit-2-2-2-2-2 img{
+    width: 100%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-2-2-2-2-2{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+}
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne3*/
+.conteneurligneproduit-3-3-3-3-3{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-3-3-3-3-3{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+/*ligne prix*/
+.prixligneproduit-3-3-3-3-3{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-3-3-3-3-3{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-3-3-3-3-3{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne4*/
+.conteneurligneproduit-4-4-4-4-4{
+    width: 80%;
+    height: 100%;
+    
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-4-4-4-4-4{
+    width: 100%;
+    height: 80%;
+   
+}
+/*ligne prix*/
+.prixligneproduit-4-4-4-4-4{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-4-4-4-4-4{
+    width: 80%;
+    height: 100%;
+     
+}
+/*pix boouton*/
+.boutonligneproduit-4-4-4-4-4{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*produit6.......................................................*/
+.conteneurproduit-6{
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 5vh;
+    white-space:nowrap;
+    overflow-y: hidden;     
+}
+/*ligne1*/
+.conteneurligneproduit-1-1-1-1-1-1{
+    width: 80%;
+    height: 100%;
+    
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-1-1-1-1-1-1{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+.imgligneproduit-1-1-1-1-1-1 img{
+    width: 100%;
+    height: 100%;
+}
+/*ligne prix*/
+.prixligneproduit-1-1-1-1-1-1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-1-1-1-1-1-1{
+    width: 80%;
+    height: 100%;
+}
+.imgprixligneproduit-1-1-1-1-1-1 img{
+    width: 100%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-1-1-1-1-1-1{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+/*ligne2*/
+.conteneurligneproduit-2-2-2-2-2-2{
+    width: 80%;
+    height: 100%;
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-2-2-2-2-2-2{
+    width: 100%;
+    height: 80%;
+   background-color: white;
+}
+.imgligneproduit-2-2-2-2-2-2 img{
+    width: 100%;
+    height: 100%;
+}
+/*ligne prix*/
+.prixligneproduit-2-2-2-2-2-2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-2-2-2-2-2-2{
+    width: 80%;
+    height: 100%;
+}
+.imgprixligneproduit-2-2-2-2-2-2 img{
+    width: 100%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-2-2-2-2-2-2{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne3*/
+.conteneurligneproduit-3-3-3-3-3-3{
+    width: 80%;
+    height: 100%;  
+    margin-right: 1.5vw;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-3-3-3-3-3-3{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+.imgligneproduit-3-3-3-3-3-3 img{
+    width: 100%;
+    height: 100%;
+}
+/*ligne prix*/
+.prixligneproduit-3-3-3-3-3-3{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-3-3-3-3-3-3{
+    width: 80%;
+    height: 100%;
+}
+.imgprixligneproduit-3-3-3-3-3-3 img{
+    width: 100%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-3-3-3-3-3-3{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+/*ligne4*/
+.conteneurligneproduit-4-4-4-4-4-4{
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+}
+/*imgligne1*/
+
+.imgligneproduit-4-4-4-4-4-4{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+.imgligneproduit-4-4-4-4-4-4 img{
+    width: 100%;
+    height: 100%;
+}
+/*ligne prix*/
+.prixligneproduit-4-4-4-4-4-4{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(157, 218, 236);
+    display: flex;
+}
+/*prximg*/
+.imgprixligneproduit-4-4-4-4-4-4{
+    width: 80%;
+    height: 100%;    
+}
+.imgprixligneproduit-4-4-4-4-4-4 img{
+    width: 100%;
+    height: 100%;
+}
+/*pix boouton*/
+.boutonligneproduit-4-4-4-4-4-4{
+    width: 30%;
+    height: 100%;
+    color: white;
+    width: 30%;
+    height: 100%;
+    font-size: 3vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    animation: shake 5s ease-in-out infinite; 
+    }
+.imge2cranimg5:hover{
+    transform: scale(1.2);
+}
+
+  /*bouton*/
+  /* Styles pour la fenêtre modale */
+.fenetre-modale {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+.contenu-fenetre-modale {
+    background-color: #fefefe;
+    padding: 2%;
+    height: 100vh;
+    margin-top: 10vh;
+
+  }
+.fenetreh1{
+    width: 100%;
+    height: 7vh;
+    font-size: 3vh;
+}
+.fenetrep{
+    width: 100%;
+    height: 70vh;
+    font-size: 2.5vh;
+}
+.fermer {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+.contenu-fenetre-modale h1{
+    border-bottom: 2px solid blue;
+  }
+  .button{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .button button {
+    width: 80vw;
+    height: 3vh;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color:  #1357af;
+    cursor: pointer;
+    color: rgb(117, 255, 5);
+    font-size: 100%;
+    animation: shake 4s infinite;
+    }
+
+/*fin conteneur*/
+.montageecran{
+    width: 90%;
+    height: 70vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 234, 238);
+}
+.pmontage{
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 4vh;
+    font-size: 4vh;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.pmontage p{
+    border-bottom: 2px solid blue;
+}
+.imgmontage{
+    width: 100%;
+    height: 45vh;
+}
+.imgmontage img{
+    width: 100%;
+    height: 100%;
+}
+
+    /*localiser*/
+
+.localiser{
+    width: 90%;
+    height: 70vh;
+    margin-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    width: 100%;
+    height: 7vh;
+    border-bottom: 2px solid blue;
+    font-size: 6vh;
+}
+
+.map{
+    width: 100%;
+    height: 50vh;
+  
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+/*footer*/
+.footer{
+    width: 90%;
+    height: 10vh;
+    background-color: rgb(130, 141, 238);
+    margin-bottom: 1vh;
+    display: flex;
+    
+}
+.rimg1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg1 img{
+    width: 50%;
+    height: 50%;
+  }
+  .rimg2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg2 img{
+    width: 50%;
+    height: 50%;
+  }
+  .rimg3{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg3 img{
+    width: 50%;
+    height: 50%;
+  }
+  .rimg4{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rimg4 img{
+    width: 50%;
+    height: 50%;
+  }
+  /* fin footer*/
+  
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-3px, 0) rotate(3deg); }
+    50% { transform: translate(0, 0); }
+    75% { transform: translate(0, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+@media screen and (min-width: 500px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .conteneurgenerale{
+        width: 70%;
+    }
+    .navbar{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 769px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .conteneurgenerale{
+        width: 50%;
+    }
+    .navbar{
+        width: 44%;
+    }
+}
